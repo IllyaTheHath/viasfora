@@ -7,7 +7,7 @@ using Winterdom.Viasfora.Util;
 
 namespace Winterdom.Viasfora.Options {
   [Guid(Guids.TextObfuscationOptions)]
-  public class TextObfuscationOptionsPage : UIElementDialogPage {
+  public class TextObfuscationOptionsPage : Design.UIElementDialogPage {
     private TextObfuscationDialog dialog;
     protected override System.Windows.UIElement Child => this.dialog;
 
